@@ -48,11 +48,17 @@ Qr codes consist of 7 parts ,each part having a pixel pattern which looks simila
 Each element conveys certain information through the Code  like print direction, timing, error tolerance and empty spaces differentiating the Code its surroundings .It is processed using [Reed–Solomon](https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction)  error correction until the image can be appropriately interpreted.Steps of [encoding](https://www.thonky.com/qr-code-tutorial/introduction):
 
 1.[Data analysis](https://www.thonky.com/qr-code-tutorial/data-analysis)
+
 2.Data Encoding
+
 3.Error correction Coding
+
 4.Structure Final Message
+
 5.Module Placement Matrix
+
 6.Data Masking
+
 7.Format and version Formation
 
 How qrcode scanner work
