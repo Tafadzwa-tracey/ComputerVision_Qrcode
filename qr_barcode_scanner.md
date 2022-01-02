@@ -4,7 +4,7 @@ Building  Barcode /Qrcode Scanner
 
 
 
-![Qrcode](https://www.google.com/imgres?imgurl=https%3A%2F%2Ficdn.digitaltrends.com%2Fimage%2Fdigitaltrends%2Ffree-qr-scanner1-411x274-c.jpg&imgrefurl=https%3A%2F%2Fwww.digitaltrends.com%2Fmobile%2Fbest-qr-code-scanning-apps%2F&tbnid=UCvLUYO9PkknjM&vet=10CJMBEDMoqQFqFwoTCIDo9_jnk_UCFQAAAAAdAAAAABAC..i&docid=64tVW_WpiuHAmM&w=411&h=274&q=images%20with%20qr%20%20and%20barcodes&ved=0CJMBEDMoqQFqFwoTCIDo9_jnk_UCFQAAAAAdAAAAABAC)
+![Qrcode](https://www.istockphoto.com/photo/pay-or-log-in-using-qr-code-gm1288429212-384379318?utm_source=pixabay&utm_medium=affiliate&utm_campaign=SRP_image_sponsored&referrer_url=http%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fqr%2520code%2F&utm_term=qr%20code)
 
 ----------------
 Introduction
