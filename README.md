@@ -10,8 +10,8 @@ Code
 qr_barcode_scanner.py
 
 Group members                  
-_**`Tracey  BK2018050`**_ ,  reasearch , writing md file , code
+_**`Tracey  BK2018050`**_ ,  reasearch , writing md file , code ,ppt for video
 
- _**`Vanessa BK2018049`**_ , research
+ _**`Vanessa BK2018049`**_ , research assistance
 
- _**`Ethel BK2018038`**_ , video
+ _**`Ethel BK2018038`**_ , video ,code assistance
