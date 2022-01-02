@@ -16,11 +16,14 @@ def read_barcodes(frame):
         #3
         with open("barcode_result.txt", mode ='w') as file:
             file.write("Recognized Barcode:" + barcode_info)
+        webbrowser.open(str(barcode_info))
+    
+        
     return frame
 
 def main():
     #1
-    camera = cv2.VideoCapture(0)
+    camera = cv2.VideoCapture(0 ,cv2.CAP_DSHOW)
     ret, frame = camera.read()
     #2
     while ret:
@@ -30,7 +33,6 @@ def main():
         if cv2.waitKey(1) & 0xFF == 27:
             break
     #3
-    b = webbrowser.open(str(frame))
     camera.release()
     cv2.destroyAllWindows()
 #4

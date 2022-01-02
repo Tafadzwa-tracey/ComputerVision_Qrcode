@@ -2,15 +2,14 @@ Building  Barcode /Qrcode Scanner
 --------
 <https://github.com/Tafadzwa-traceComputerVision_Qrcode>
 
-_**`Tracey  BK2018050`**_ ,_**`Vanesa BK2018049`**_ ,_**`Ethel BK2018038`**_
+
 
 ![Qrcode](image.jpg)
 
 ----------------
 Introduction
 ----
-
-For our project we thought QR codes/ Barcodes are very cool and interesting because they store information in a different format. The fun part about them is we can’t really tell what they are storing until we scan them. It’s like playing a puzzle game. And one more thing that we like about them is they can be part of the physical world and still connect us to the internet world.
+From floors, ceilings to bathroom stall doors ,these are just a few of the places you'll find QR codes. In fact, they've become so ever-present that[45% of shoppers](https://blog.hubspot.com/blog/tabid/6307/bid/29449/how-to-create-a-qr-code-in-4-quick-steps.aspx) used marketing-related QR codes in 2021.There's no denying the popularity and convenience of the QR code. But what exactly is it? Why is it so popular? How can you create one for your next marketing campaign?For our project we thought QR codes/ Barcodes are very cool and interesting because they store information in a different format. The fun part about them is we can’t really tell what they are storing until we scan them. It’s like playing a puzzle game. And one more thing that we like about them is they can be part of the physical world and still connect us to the internet world.
 
 Building a Barcode / QR Code Scanner 
 ---
@@ -33,6 +32,9 @@ It is two-dimensional version of the Barcode which is able to convey a wide rang
     -Version Information
     Currently 40 different QR Code versions available, these markers specify the one used.
 
+    -Formation Information
+    Contain information about the error tolerance and the data mask pattern making it easier to scan.
+
     -Data and error correction keys
     Mechanism inherent in the QR Code structure , all your data is contained here and shares the space with the error correction blocks that allow up to 30% of the Code to be damaged
 
@@ -41,8 +43,11 @@ It is two-dimensional version of the Barcode which is able to convey a wide rang
 As shown below:
 ![Description](description.png)
 
+Not every QR code is shaped like a perfect square. Sometimes they have[unique patterns, colors, and logos](https://blog.hubspot.com/blog/tabid/6307/bid/29449/how-to-create-a-qr-code-in-4-quick-steps.aspx)displayed inside. You'll find them in non-digital spaces like direct mail, signage, billboards, and even TV shows where you can scan the code on the screen using your phone
+
 How qrcode  work
 ----
+Originally designed in Japan for use in the automotive industry, marketers adopted the QR code because of its large storage capacity and ability to translate additional information to consumers beyond what the packaging or advertising of a product could display.Let's say a consumer sees a QR code. They can take out their mobile device, download a free QR code scanning app, or simply use their phone's camera, and scan the QR code to gain more information about what they saw.If you wanted to create, say, a bus stop advertisement promoting your podcast, you could display a QR code on that printed ad that brings people right to your iTunes page when they scan it with their phones. Pretty simple, right.
 
 Qr codes consist of 7 parts ,each part having a pixel pattern which looks similar to  a crossword puzzle
 Each element conveys certain information through the Code  like print direction, timing, error tolerance and empty spaces differentiating the Code its surroundings .It is processed using [Reed–Solomon](https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction)  error correction until the image can be appropriately interpreted.Steps of [encoding](https://www.thonky.com/qr-code-tutorial/introduction):
@@ -63,10 +68,10 @@ Each element conveys certain information through the Code  like print direction,
 
 What is a barcode
 ---
-[According to Denso Wave](https://www.denso-wave.com/en/adcd/fundamental/barcode/barcode/index.html),it is a machine readable representation of numerals and characters and it consist of bars and spaces.Mainly used in supermarkets ,convenience stores and other ubiquitous . It can be read by a barcode scanner and is applied to products so that they can be easily identified.It's components consist of
+[According to Denso Wave](https://www.denso-wave.com/en/adcd/fundamental/barcode/barcode/index.html),it is a machine readable representation of numerals and characters and it consist of bars and spaces.Mainly used in supermarkets ,convenience stores and other ubiquitous . It can be read by a barcode scanner and is applied to products so that they can be easily identified.[It's components consist of](https://www.denso-wave.com/en/adcd/fundamental/barcode/barcode/index.html)
 
     -Quiet Zone
-    Also known as the margin.It is black located at either end of the barcode with a [minimal margin of 2.5mm](https://www.denso-wave.com/en/adcd/fundamental/barcode/barcode/index.html).If width is insufficient it becomes difficult to scan.
+    Also known as the margin.It is black located at either end of the barcode with a minimal margin of 2.5mm.If width is insufficient it becomes difficult to scan.
 
     -Start / Stop character
     It represents the start and end of data respectively.Characters differ depending on the barcode type.
@@ -85,19 +90,20 @@ The black and white  bars combination ,elements in short, represents varying tex
 
 QR Code Vs Barcode
 ---
+QR codes and barcodes are similar in that they are both visual representations of data, but how the information stored within them is read sets them apart. Barcodes are one-dimensional and the data stored in them is read horizontally. QR codes are two-dimensional and the data stored in them is [read horizontally and vertically](https://blog.hubspot.com/blog/tabid/6307/bid/29449/how-to-create-a-qr-code-in-4-quick-steps.aspx). Both barcodes and QR codes can be scanned using a laser or a smartphone as long as the tool being used has the correct capabilities of reading vertical and horizontal data. Although most smartphones scan QR codes automatically, many won't scan barcodes so easily — you'll need a [special app](https://blog.hubspot.com/blog/tabid/6307/bid/29449/how-to-create-a-qr-code-in-4-quick-steps.aspx) for that.
+
 A matter of dimensions
-Theeir main difference is physical dimensions. Barcodes can be scanned in a line limiting what can be placed in that one stretch of stripes. QR codes, add  a dimension from which information can be written and scanned that can  be read both vertically and horizontally ,instead of a single line.
+Their main difference is physical dimensions. Barcodes can be scanned in a line limiting what can be placed in that one stretch of stripes. QR codes, add  a dimension from which information can be written and scanned that can  be read both vertically and horizontally ,instead of a single line.
 
 As blog [Schooldude notes](https://www.dmsiworks.com/resources/erp-news/inventory-management/barcodes-vs-qr-codes-which-is-better-for-manufacturers/), a company can store more information in a single QR code than in a barcode. For example, a standard barcode can only be able to tell a product number and expected location whereas a QR code is be able to provide the condition of the product, date of manufacture,  repairs needed and much more.Hence a business is able to get  more precise understanding of the state of their inventory.
 
 However , the main drawback of qr codes as noted below , is their inability to be scanned because the devices used are [quiet expensive](https://www.dmsiworks.com/resources/erp-news/inventory-management/barcodes-vs-qr-codes-which-is-better-for-manufacturers/) and [they are ugly](https://www.digitaloperative.com/blog/2017/the-death-of-qr-codes-and-the-rise-of-new-technology).They don't excactly fit in some products design.
 
 
-How qrcode / barcode scanner work
+How qrcode scanner work
 ----
 
-
-QR scanners read both the data codewords and the error correction codewords. By comparing the two, the scanner can determine if it read the data correctly, and correct errors if it did not read the data correctly. Detecting a QR code revolves around identifying finder patterns. The key idea is that there's a ratio in the number of black/white/black/white/black. And this ratio remains the same no matter what angle you look at it.
+QR scanners read both the data codewords and the error correction codewords. By comparing the two, the scanner can determine if it read the data correctly, and correct errors if it did not read the data correctly.QR scanners read both the data codewords and the error correction codewords. By comparing the two, the scanner can determine if it read the data correctly, and correct errors if it did not read the data correctly. Detecting a QR code revolves around identifying finder patterns. The key idea is that there's a ratio in the number of black/white/black/white/black. And this ratio remains the same no matter what angle you look at it.
 
 Libraries
 ---------
@@ -130,6 +136,7 @@ Here we write the decoding function which is mainly responsible for three things
 3.Exporting the information stored as a text document
 
 ```
+
 def read_barcodes(frame):
     barcodes = pyzbar.decode(frame)
     for barcode in barcodes:
@@ -144,6 +151,8 @@ def read_barcodes(frame):
         #3
         with open("barcode_result.txt", mode ='w') as file:
             file.write("Recognized Barcode:" + barcode_info)
+        webbrowser.open(str(barcode_info))
+    
     return frame
 ```
 Understanding the decoding function
@@ -153,7 +162,7 @@ Firstly , we decode the information on the qr / bar code  , then draw a rectangl
 
 Then ,we add text on top of the rectangle which shows the decoded information
 
-Lastly , we export the information into a text document
+Lastly , we export the information into a text document and add the string to open link on web browser
 
 Main Function
 ---
@@ -162,21 +171,20 @@ Here ,the main function is where the application works. It turn on the video cam
 ```
 
 def main():
-    #1
-    camera = cv2.VideoCapture(0)
+    
+    camera = cv2.VideoCapture(0 ,cv2.CAP_DSHOW)
     ret, frame = camera.read()
-    #2
+    
     while ret:
         ret, frame = camera.read()
         frame = read_barcodes(frame)
         cv2.imshow('Barcode/QR code reader', frame)
         if cv2.waitKey(1) & 0xFF == 27:
             break
-    #3
-    b = webbrowser.open(str(frame))
+    
     camera.release()
     cv2.destroyAllWindows()
-#4
+
 if __name__ == '__main__':
     main()
 ```
@@ -191,18 +199,35 @@ After that we load the website for the qrcode ,then we release the camera we tur
 
 Lastly ,call main fuction to trigger program.
 
+___
 
-Results
------
+Advantages of QR codes
+---
 
-The program can scan QR codes of all types for example the one shown below
-![Result_one](Results/one.png)
+1.Quick and error-free
+   
+If not QR Codes, the only way to connect consumers to online content is by using a URL. But typing a URL is time-consuming and inconvenient on a mobile screen. Consumers are also likely to make errors while typing. Compared to this, scanning a QR Code is a much faster and error-free process.In 2015, Chicago-based Wintrust Financial and technology provider FIS launched about 200 ATMs. These ATMs have QR Code-based cardless transaction capabilities.Customers can withdraw money simply by scanning a QR Code at the ATM screen using their Wintrust app.According to [Wintrust and FIS](https://paymentweek.com/2015-1-19-wintrust-rolls-out-cardless-cash-atms-powered-by-fis-6400/) , QR Code-based cardless cash withdrawal takes only 8 seconds compared to 47 seconds for normal withdrawal.This shows that QR Codes are faster and convenient for the user.This is one of the key reasons why QR Codes [are so popular in China](https://scanova.io/blog/blog/2016/02/16/advantages-of-qr-code).
 
-Scanning the QR Code
-![Result_two](Results/two.png)
+2.[More informative]( https://scanova.io/blog/blog/2016/02/16/advantages-of-qr-code/#:~:text=Nestle%20Maggi%20using%20QR%20Code%20on%20packaging%20to%20win%20back%20trust)
 
-After scanning the code it redirects to the website as shown below
-![Result_three](Results/three.png)
+Unlike online marketing, print-based marketing has limitations. Particularly in real estate space. There is only so much you can do in a newspaper ad, product packaging, and brochure, right? Wrong. With QR Codes, you can give consumers a way to access unlimited information. In 2015, Nestle’s popular product in India – Maggi noodles – got banned. It was due to claims by authorities that it contained impermissible levels of lead.The ban was soon lifted but Nestle knew that people now had trust issues. To regain their trust, Nestle took various steps to prove its compliance with people’s health and law. To do it, they shared a detailed list of ingredients and other important information with customers. This could be on safety, environment, society, and recipes.Obviously, it could not print all of this on the packaging. So the company added a QR Code which led buyers to the mobile site that had all this information. 
+
+3.[Engaging with rich content](https://blog-trycontechnologi.netdna-ssl.com/blog/wp-content/uploads/2015/11/IMG_8613.jpg)
+
+Words are good. A picture is worth a thousand words.But a video has thousands of pictures. Audio is also more convenient. But unfortunately, you can share these forms of rich content via print promotions—unless you add a QR Code.Using QR Codes, marketers can share rich content via their print promotions. Thus, they will see better engagement from their audience. For example, packaged food company Chef’s Basket added a QR Code on the packaging of one of its pasta products. When scanned, the QR Code redirects the consumers to a video of the recipe of the pasta dish.
+
+4.Actionable
+
+While print media still works well for branding, it is not interactive like outdoor or digital marketing. But with QR Codes, it can be.By adding a QR Code, you can make your promotions interactive and take inputs from your target audience. You can run a contest, get people to register for a product or event, take feedback, or allow your customers to make purchases right from the newspaper ad or flyer.A good example is ‘World Park’, a QR Code-based campaign that was run in New York City’s Central Park in 2010.  QR Codes on boards were placed in different locations in the park. When scanned, the QR Codes engaged visitors in a Quiz on the park’s history, pop culture, art and music, and science and geology. 
+
+5.Trackable
+
+If you are a marketer, then you know the importance of analytics. It helps you gain valuable insights into your audience. Thus, helping you identify areas of strength and weakness.But print media, on its own, has no tracking abilities, unlike digital media. This is where QR Codes help you out.  QR Codes help you gauge the impact of print media marketing efforts by letting you track their [scanning activity](https://scanova.io/blog/qr-code-tracking/?utm_source=dk_sd_advantages-of-qr-code_bod&utm_medium=blog&utm_campaign=content). For example, how many people have scanned it, when did they scan it, and where did they scan it.In addition to this, it also offers a feature called event tracking. It tells you how people interact with the content encoded in the QR Code after scanning it. For example, it could be clicking on a button that says ‘Sign-up’ or ‘Register Now’.With this data, you can optimize your future campaigns better.
+
+6.[Easy to save](https://scanova.io/blog/blog/2016/02/16/advantages-of-qr-code/#:~:text=make%20your%20business%20card%20dynamic%20and%20exciting)
+   
+Another advantage of QR Codes is that the user can easily save the data on their smartphones.For example, if you scan a Dynamic vCard QR Code, a mobile page with your contact details will open. The page features a ‘Add to Contacts’ button which allows the user to directly save the contact in their smartphone.
+
 
 ___
 Shortcomings of qr codes 
