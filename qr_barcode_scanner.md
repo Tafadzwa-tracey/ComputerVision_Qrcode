@@ -201,6 +201,8 @@ Lastly ,call main fuction to trigger program.
 
 ___
 
+[![Watch the video](picture.jpg)](https://www.canva.com/design/DAE0YkfGWDo/iNNiAB7Fo2iEdG_SpfnSqQ/view?utm_content=DAE0YkfGWDo&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
+
 Advantages of QR codes
 ---
 
