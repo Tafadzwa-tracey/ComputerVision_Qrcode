@@ -1,6 +1,6 @@
 Building  Barcode /Qrcode Scanner
 --------
-<https://github.com/Tafadzwa-traceComputerVision_Qrcode>
+<https://github.com/Tafadzwa-tracey/ComputerVision_Qrcode>
 
 
 
